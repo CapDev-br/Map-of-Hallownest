@@ -58,7 +58,13 @@ header {
     align-items: center;  
 }
 header > img {
-    width: 40%;
+    width: 30%;
+}
+
+@media (max-width: 900px) {
+    header > img {
+    width: 70%;
+}
 }
 /*  Parte Iterativa do Menu  */
 .nave,
@@ -432,4 +438,5 @@ path {
 /*    <p class="textsegun">
                 A Cidade das Lágrimas é a capital melancólica de Hallownest, onde a chuva nunca cessa. A paisagem urbana é composta por prédios altos, pontes imponentes e vitrais quebrados que revelam a antiga grandiosidade do lugar. A arquitetura nobre contrasta com o abandono e a decadência, transmitindo a impressão de uma glória perdida, agora tomada pela solidão.
             </p>
+
         </div>*/
